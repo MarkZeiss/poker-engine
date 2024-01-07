@@ -89,7 +89,7 @@ The list of tables can be sorted by clicking on the column names. Sort options i
 
 On the right side of each table, there are icons representing possible actions.
 
-**Pause game**: Pause the game at the table. Players will hear a sound indicating the table has been paused, and the word "paused" will appear in the upper left corner of the table.
+**Pause game**: Pause the game at the table. Players will hear a sound indicating the table has been paused, and the word "paused" will appear in the upper left corner of the table. No action can be taken during a pause.
 
 **Open table**: Open the table in a new tab in debug mode. This allows you to view all cards in the current hand and perform additional actions such as disconnecting a player (click on the desired player to open the action menu). You can also take actions on behalf of any player before their turn. To increase a player's stack, click on your login in the top right corner and select `Increase the stack`.
 
@@ -97,10 +97,10 @@ On the right side of each table, there are icons representing possible actions.
 
 **Delete bot**: Remove a bot from the table. You can also disconnect the bot in debug mode.
 
-**Set the cards for the next hand**: Open a window to set the board cards and individual cards for each player. Click "OK," and these cards will be dealt in the next hand. This allows you to test complex combinations or split pots.
+**Set the cards for the next hand**: Open a window to set the board cards and individual cards for each player. Click `OK`, and these cards will be dealt in the next hand. This allows you to test complex combinations or split pots.
 
 **Disable bot actions**: Prevent bots at the table from performing any actions.\
-**Enable bot actions** Allow bots at the table to resume their usual actions.
+**Enable bot actions**: Allow bots at the table to resume their usual actions.
 
 **Table history**: Open the detailed history of the table, including player actions, administrator actions, and stack changes.
 
@@ -109,7 +109,7 @@ On the right side of each table, there are icons representing possible actions.
 
 **Delete the table**: The table will be deleted after a delay of 1-2 seconds. Note that this action is not possible while players are at the table.
 
-**Edi the table**: Open the page to modify the table parameters. It is not recommended to make changes during the game process.
+**Edit the table**: Open the page to modify the table parameters. It is not recommended to make changes during the game process.
 
 Click on the `Table history` icon to view the complete history of the table, including player actions, administrator actions, and stack changes. You can update the history at any time by clicking the `Refresh data` button. The history includes columns for *Event* (description of the event), *Game number* (unique hand number when the event occurred), *Value* (event value, such as numerical values or text descriptions), *User* (the player associated with the event or empty value), and *Time* (the timestamp of the event).
 
