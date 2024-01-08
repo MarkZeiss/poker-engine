@@ -116,6 +116,78 @@ Click on the `Table history` icon to view the complete history of the table, inc
 
 ### <a name="tournaments"></a> Tournaments
 
+To manage game tournaments, access the `Games` > `Tournaments` section in the admin panel.
+
+Creating a New Tournament\
+To create a new tournament, click on the `New tournament` tab.
+
+**Game**: The default game is Texas Hold'em.
+
+**Tournament name**: The name of the tournament will be displayed in the list of tournaments and in the lobby.
+
+**Private tournament**: If selected, a password field will appear. Participants will need to enter this password to join the tournament.
+
+**Game currency**: Choose between *USD* or *Tournament Tickets* as the currency required for participation.
+
+**Buy-in**: Specify the buy-in amount from the provided list or enter your own value by clicking on `choose another`. You can also choose not to charge a buy-in by setting it to 0.
+
+**Rake**: This is the commission for participating in the tournament. It will be added to the buy-in and is not included in the prize pool. Set the rake to 0 if you do not want to charge a commission.
+
+**Number of chips**: Determine the number of chips each player will start with in the tournament, as well as during rebuy or re-entry.
+
+**Level time**: This is the duration in seconds, e.g. 300 seconds (5 minutes), after which the ante, small blind, and big blind increase.
+
+**Ante**: Mandatory bid at the beginning of each hand. Select from the list or enter a custom value.
+
+**Ante grow**: After the specified interval in *Level time*, the ante will increase by the specified value or multiply by the specified value (indicate "x" before the value).
+
+**Start small blind**:  Choose the value of the initial small blind or enter a custom value.
+
+**Start big blind**: Choose the value of the initial big blind or enter a custom value.
+
+**Blind grow**: After the interval specified in *Level time*, the small and big blinds will increase by the specified value or multiply by the specified value (indicate "x" before the value).
+
+**Number of Players**: Determine the number of participants at each table. Options include 9, 6, 4, or 2 players.
+
+**Minimum players**: Specify the minimum number of registered participants required to start the tournament. Bots are also counted.
+
+**Maximum players**: Set the maximum number of participants allowed in the tournament, including bots.
+
+**Allow Sitout**: Enabling this option allows players to save their seat at the table without actively participating in the game.
+
+**Tournament start**: Set the exact time and date for the tournament to start. Players will be seated approximately 1 minute before the tournament begins.
+
+**Late registration**: Specify the duration of late registration from the start of the tournament in seconds.
+
+**Renewal of the tournament**: This option allows for automatic recreation of the tournament. The available options include: *Disable*, *Interval after completion*, and *Renewal period*.\
+**Interval after completion**: The tournament will be recreated after a certain period of time at the end of the previous tournament. The value is specified in seconds, e.g. 86400 (24 hours). This setting remains in effect until the tournament is manually removed.\
+**Time to register**: Specify the time allowed for registration in a tournament after it is automatically created. The value is specified in seconds, e.g. 3600 (1 hour).\
+**Renewal period**: Choose one of the available values, such as Every day, to create the tournament at the same time each day.\
+**Time to register**: Specify the time allowed for registration in the tournament. Since the tournament is created in advance, this value determines the registration time. The value is specified in seconds, e.g. 1800 (30 minutes).
+
+**Allow Rebuy**: Rebuy allows a player who has lost all their chips to buy another stack of chips and continue playing at the same table without leaving their seat.\
+**First interval**: Set the duration in seconds from the start of the tournament during which players can rebuy. For example, 3600 (1 hour) allows rebuys within the first hour.\
+**Number of possible rebuys**: Determine the maximum number of rebuys allowed during the specified first interval. Set to 0 for no limit.\
+**Second interval**: Set the duration in seconds after the first interval during which players can rebuy. For example, 300 (5 minutes) allows rebuys for 5 minutes following the end of the first interval.\
+**Number of possible rebuys (2)**: Specify the maximum number of rebuys allowed during the specified second interval. Set to 0 for no limit.\
+**Standby time**: If a player does not rebuy within this time, they will no longer participate in the tournament and their seat will become vacant. Specify the duration in seconds, e.g. 300 (5 minutes).
+
+**Allow Re-entry**: Re-entry allows a player who has lost all their chips to leave the table and pay to re-enter the tournament as a new player. They will receive a full starting stack of chips and be assigned to a random seat.\
+**Re-entry interval**: The re-entry interval specifies the time period, measured in seconds, during which players can re-enter the game. For example, a re-entry interval of 1800 means players can re-enter within 30 minutes after the tournament starts.\
+**Number of possible re-entries**: Players are allowed to make a certain number of re-entries within the specified time interval. Set to 0 for no limit.
+
+**The prize fund**: There are two types of prize funds available:\
+*Fixed Prize Fund*: In this option, a predetermined amount is allocated as the prize fund. This amount is then divided among the winners of the tournament.\
+*Accounting for Players*: The total amount of all players' contributions (buy-in) is divided among the winners of the tournament.\
+**The amount of the prize fund**: When selecting the *Fixed Prize Fund* option, the amount of the prize fund is indicated.
+
+Placement Prizes: Indicate the percentage of the prize pool for each placement in the tournament. For example:
+
+**1st place**: Percentage of the prize pool allocated for the winner.\
+**2nd place**: Percentage of the prize pool allocated for the second-place winner.\
+**3rd place**: Percentage of the prize pool allocated for the third-place winner.\
+**...**\
+**15th place**: Percentage of the prize pool allocated for the fifteenth-place winner.
 
 
 ### <a name="styles"></a> Styles
