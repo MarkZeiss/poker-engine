@@ -162,7 +162,7 @@ To create a new tournament, click on the `New tournament` tab.
 **Renewal of the tournament**: This option allows for automatic recreation of the tournament. The available options include: *Disable*, *Interval after completion*, and *Renewal period*.\
 **Interval after completion**: The tournament will be recreated after a certain period of time at the end of the previous tournament. The value is specified in seconds, e.g. 86400 (24 hours). This setting remains in effect until the tournament is manually removed.\
 **Time to register**: Specify the time allowed for registration in a tournament after it is automatically created. The value is specified in seconds, e.g. 3600 (1 hour).\
-**Renewal period**: Choose one of the available values, such as Every day, to create the tournament at the same time each day.\
+**Renewal period**: Choose one of the available values, such as *Every day*, to create the tournament at the same time each day.\
 **Time to register**: Specify the time allowed for registration in the tournament. Since the tournament is created in advance, this value determines the registration time. The value is specified in seconds, e.g. 1800 (30 minutes).
 
 **Allow Rebuy**: Rebuy allows a player who has lost all their chips to buy another stack of chips and continue playing at the same table without leaving their seat.\
