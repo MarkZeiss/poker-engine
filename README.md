@@ -11,7 +11,7 @@ The different categories under which the customizations are organized include:
 
 - [Tables](#tables): Configure and manage poker tables.
 - [Tournaments](#tournaments): Set up and run poker tournaments.
-- [Styles](#styles): Customize the visual appearance of the software.
+- [Styles](#styles): Customize the appearance of the game tables.
 - [User Management](#users): Manage user accounts and permissions.
 - [Groups](#groups): Organize users into groups for easier management.
 - [Bonuses](#bonuses): Set up promotional bonuses for users.
@@ -81,6 +81,7 @@ To create a new table, click on the `New table` tab.
 
 **Rake**: Enter the percentage of winnings that will be charged as a commission at the table. Enter 0 if no commission is to be charged. Use a dot to separate decimal numbers.
 
+\
 Click the `Tables` tab to view the list of tables.
 
 Use the search bar to find specific game tables.
@@ -189,9 +190,81 @@ Placement Prizes: Indicate the percentage of the prize pool for each placement i
 **...**\
 **15th place**: Percentage of the prize pool allocated for the fifteenth-place winner.
 
+> Once the tournament begins, tables will be promptly created and players will be seated one minute prior to the start time. A notification will be displayed in the lobby, alerting users about the tournament kick-off, and they will be swiftly moved to their designated tables. These newly created tables can be easily accessed by navigating to `Game` > `Tables`, where they will be listed as tables in *Tournament* mode, denoted by their format *Tournament name {table#n}*.
+> 
+> Experience the excitement of competitive poker at your fingertips!
+
+\
+To view the list of tournaments, click on the `Tournaments` tab.
+
+To find specific tournaments, use the search bar.
+
+You can sort the list of tournaments by clicking on the column names. The available sort options are *Tournament Name*, *Players*, *Buy-in*, *Start time*, and *Status* (Registration / Running / Completed / Canceled).
+
+On the right side of each tournament, you will find icons representing possible actions.
+
+**Add bot**:  This allows you to add a pre-created bot to the table. Bots can be created in the [user management](#users) section. Once added, the bot's username will be visible to users in the list of registered players.
+
+**Delete bot**: You can cancel the participation of a specific bot in the tournament by clicking on this icon.
+
+**Edit tournament**: Clicking on this icon will open the page where you can modify the tournament parameters. If any changes are made, registered users will immediately receive an email notifying them of the changes.
+
+**Remove tournament**: You cannot delete a tournament if there are players at least on one table.
+
+**Game results**: Tournaments with the status *Completed* and *Running* always allow you to view the results of the game. Clicking on this icon will open a new page with the list of players and their results.
 
 ### <a name="styles"></a> Styles
 
+To edit the table logo and add a new table style, go to the `Games` > `Styles` section in the admin panel.
+
+The `Styles` tab displays all available table styles. One style is available by default. To change the table logo, click on the *Change the logo* icon next to the desired style.
+
+Next, you can choose between *Text* or *Image* options.
+
+If you select *Text*, you can enter the text that will appear on the game table.
+
+You can also choose the desired color for the text using the color selection tool.
+
+Specify the font size of the displayed table text (from 7 to 42) using the size option.
+
+Click the `Save` button to apply the changes, and you will immediately see the new table image.
+
+If you select *Image*, you can upload an image from your computer in PNG format. Once uploaded, it will appear in the list of available images below.
+
+In the list of available images, there are two icons in front of each image.
+
+Clicking on the icon allows you to change the table logo. A confirmation dialog box will appear, and you can select *Yes* or *Cancel* to proceed. When you save the changes, the table image will immediately be updated with the new logo.
+
+You can permanently remove an uploaded image from the list of available logos by clicking on the *Delete the image* icon. Deleting an image will not delete or modify an existing table logo.
+
+\
+Clicking on the `My style` tab allows you to load a new table style.
+
+The table style should be a zip archive containing the following files:
+
+- *style.conf.php* - style configuration
+- *cards* folder
+- *css* folder
+- *images* folder
+- *sounds* folder
+
+An example of a configuration file is shown below:
+
+> Table6x\
+> 6\
+> preview.png\
+> table.css\
+> table_origin.jpg
+
+- The first line is the name of the style, which will be displayed in the list of styles.
+- The second line is the maximum number of players for which the table is designed (9, 6, 4, or 2).
+- The third line is the name of the image with the table preview, which should be in the *images* folder.
+- The fourth line is the name of the table style CSS file, which should be in the *css* folder.
+- The fifth line is the name of the image of the table itself, which should be in the *images* folder.
+
+The table image should not include the table logo. The table preview is a thumbnail image of the original table image, approximately 700x530 pixels in size. In the style archive, add a very small preview image (approximately 280x212 pixels) with the name *{preview_name}_thumb.{preview_extension}*, to be displayed in the style list. For example, if the preview image is *my_preview.jpg*, then the thumbnail image should be *my_preview_thumb.jpg*.
+
+Styles are loaded into the `../Games/Styles` folder. After loading, to activate a style, open the list of styles and click on the *Activate* icon next to the new style. The main style is located in the `../Games/Styles/table9x` folder. You can use the necessary material from this folder as a basis for creating your new style. In many cases, you may only need a new table image, as all other elements can be copied from the default style folder.
 
 
 ### <a name="users"></a> User Management
