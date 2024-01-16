@@ -304,7 +304,7 @@ To view the list of users, follow these steps
 
 1. Click on the `Users` tab.
 2. To search for specific users, use the search bar.
-3. You can sort the list of users by clicking on the column names. The available options for sorting include *Username*, *Balance*, *Group*, *Rank*, *Email*, *Creation date*, and *IP address*.
+3. You can sort the list of users by clicking on the column names. The available options for sorting include *Username*, *Balance*, *Group*, *Rank*, *Email*, *Creation date*, and *IP address*. *Email* and *IP address* will be hidden if you do not have sufficient authorization.
 
 On the right side of each user in the list, you will find icons representing different actions you can take:
 
