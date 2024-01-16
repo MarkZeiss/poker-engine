@@ -269,7 +269,59 @@ Styles are loaded into the `../Games/Styles` folder. After loading, to activate 
 
 ### <a name="users"></a> User Management
 
+To manage users, including creating, editing, and deleting them, follow these steps
 
+1. Go to the admin panel and navigate to the `Users` > `Managing` section.
+2. To create a new user, click on the `New` tab.
+3. Enter the following details for the user:
+
+**Username**: Enter the username for the game account. You can use English letters, numbers, and the underscore symbol.
+
+**Password**: Set a password for the account.
+
+**Group**: Select the user group from the options available. You can create new groups in the [group management](#groups) section.
+
+**Balance**: Set the initial balance for the user's account or leave it at 0.
+
+**Virtual Account Balance**: Set the initial balance for the user's virtual currency account or leave it at 0.
+
+**E-mail**: Provide the user's email address.
+
+4. Click on `Additional information` to access additional fields for entering data.
+- Here, you can specify the user's *Name*, *Last Name*, *Avatar*, *Gender*, *Birthday*, *Phone number*, *Zip code*, *Address*, *Country* and *City*.
+5. You can also define the following parameters:
+
+**Bot**: Indicate whether the account being created is a bot. Bots can be attached to the game at any time.
+
+**Designated Agent**: Assign an agent for the user. The designated agent will profit from that player according to the agent program settings.
+
+**Agent**: Determine whether the user is an agent. Agents can be assigned to other players and have special profit conditions.
+
+6. Once all the fields are filled in, click on the `Create an Account` button.
+
+\
+To view the list of users, follow these steps
+
+1. Click on the `Users` tab.
+2. To search for specific users, use the search bar.
+3. You can sort the list of users by clicking on the column names. The available options for sorting include *Username*, *Balance*, *Group*, *Rank*, *Email*, *Creation date*, and *IP address*.
+
+On the right side of each user in the list, you will find icons representing different actions you can take:
+
+**Approve Registration**: If your [registration settings](#signup) require email confirmation or manual approval, and the user has not confirmed their registration, you can confirm the account by clicking this icon.
+
+**Confirm Email Address**: Click this icon to manually confirm the user's email address. An email address is marked as unconfirmed if it has been changed in the profile settings. Confirming an email address ensures that it is valid and can be used to receive email messages. 
+
+**Operations History**: Click on this icon to view all user balance activities.
+
+**Edit the Profile**: Click on this icon to edit the user's account details.
+
+**Block the Account**: Click on this icon to ban the account. The user will not be able to log in or perform any actions.\
+**Unlock the account**: Click on this icon to make the account available for login again.
+
+**Remove the Player**: Click on this icon to delete the account, along with all related information such as statistics and uploaded avatars.
+
+>Additionally, if you click on the `Operations History` icon, you can choose to view specific information such as *Referral Accruals*, *Bonuses*, *Deposits*, *Withdrawals*, *Internal Transfers*, *Cash Tables*, and *Tournaments*. By default, all operations are selected, and you can update the history by clicking the `Refresh Data` button.
 
 ### <a name="groups"></a> Groups
 
