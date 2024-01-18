@@ -321,15 +321,90 @@ On the right side of each user in the list, you will find icons representing dif
 
 **Remove the Player**: Click on this icon to delete the account, along with all related information such as statistics and uploaded avatars.
 
->Additionally, if you click on the `Operations History` icon, you can choose to view specific information such as *Referral Accruals*, *Bonuses*, *Deposits*, *Withdrawals*, *Internal Transfers*, *Cash Tables*, and *Tournaments*. By default, all operations are selected, and you can update the history by clicking the `Refresh Data` button.
+> Additionally, if you click on the `Operations History` icon, you can choose to view specific information such as *Referral Accruals*, *Bonuses*, *Deposits*, *Withdrawals*, *Internal Transfers*, *Cash Tables*, and *Tournaments*. By default, all operations are selected, and you can update the history by clicking the `Refresh Data` button.
 
 ### <a name="groups"></a> Groups
 
+To manage user groups, such as creating, editing, and deleting them, navigate to the `Users` > `Groups` section in the admin panel.
 
+Creating a new group is as simple as clicking on the `New Group` tab.
+
+Here are the details you need to provide to create a group:
+
+**Group name**: Enter a name for the group.
+
+**Access rights**: Define the access rights for users belonging to this group.
+
+The following access rights can be assigned:
+
+> *a* - User can perform all actions and access the admin panel.\
+*a1* - User can manage tables and tournaments within the admin panel.\
+*b* - User is allowed restricted access to the admin panel. They cannot use the code editor, modify or customize the cashier, send letters, or perform actions on users and groups.\
+*c* - User can use the moderator panel.\
+*d* - User can log in to their account and perform actions on it.\
+*e* - User can log in to their account but cannot edit or change settings.\
+*f* - User can log in to their account but cannot perform any actions.
+
+\
+To view the list of groups, click on the `Groups` tab.
+
+The list of groups can be sorted by clicking on the column names such as *Name*, *Access rights*, and *Users*.
+
+Each group in the list has icons on the right side representing possible actions.
+
+You can perform the following actions on a group:
+
+**Group settings**: Click to edit the settings of the group.
+
+**Delete the group**: Removes the selected group.
 
 ### <a name="bonuses"></a> Bonuses
 
+To access and manage bonuses and view the history of bonus accruals, go to the `Users` > `Bonuses` section in the admin panel.
 
+To create a new bonus, click on the `New` tab.
+
+Here are the details you need to provide when creating a bonus:
+
+**Bonus description**: Enter a description for the bonus.
+
+**Bonus event**: Select the event for which the bonus will be credited. The available options are:
+- *When replenishing an account*: the bonus will be credited with each deposit to the internal account.
+- *At the first replenishment*: the bonus will be credited only on the first deposit to the internal account.
+- *After the first authorization*: the bonus will be credited only after authorization of a newly created account.
+
+**Bonus Type**: Choose the type of bonus to be credited. This can be:
+- *Virtual money*
+- *USD* - default currency
+- *Tournament tickets*
+
+**Bonus amount**: Specify the exact number. If the bonus is determined by a percentage of the deposit amount, add the % symbol. To indicate decimal numbers, use a dot.
+
+**Start date**: Enter the exact date and time when the bonus offer will be activated.
+
+**Expiration date**: Choose the end date after which the bonus will no longer be valid.
+
+\
+Click the `Bonuses` tab to view the list of created bonuses.
+
+You can use the search bar to find a specific bonus.
+
+The list of bonuses can be sorted by clicking on the column names. The available sorting options include *Bonus description*, *Bonus event*, *Bonus Type*, *Amount*, and *Validity*.
+
+On the right side of each bonus, there are icons representing possible actions.
+
+**Stop**: Terminate the bonus offer.
+
+**Edit**: Modify the parameters of the bonus offer.
+
+**Delete**: Remove the bonus offer.
+
+\
+Click on the `History` tab to view the history of bonus accruals.
+
+You can use the search bar to find the specific username to which the bonus was credited.
+
+The list of accruals history can be sorted by clicking on the column names. The available sorting options include *Bonus name*, *Username*, *Bonus Type*, *Balance before accrual*, *Balance after accrual*, and *Accrual time*.
 
 ### <a name="affiliate"></a> Affiliate Program
 
