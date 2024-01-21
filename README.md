@@ -408,7 +408,13 @@ The list of accruals history can be sorted by clicking on the column names. The 
 
 ### <a name="affiliate"></a> Affiliate Program
 
+Poker-Engine offers an integrated affiliate program that allows registered users to earn rewards for referring new players. Each user receives a unique referral link with a login, which, when clicked and used for registration, assigns a referrer to the new player. The referrer then receives a reward based on the deposits made by the player registered through their link. This reward can be a percentage of the deposit or a fixed amount. Additionally, the affiliate program provides the flexibility of creating multiple referral levels, which makes it even more attractive. If your referral successfully registers someone through their unique affiliate link, both you and the referrer will start receiving rewards for the deposits of the invited players.
 
+To access and manage referral levels and view the statistics of affiliate accruals, navigate to the `Users` > `Affiliate Program` section in the admin panel.
+
+To create a new referral level, click on the `Referral levels` tab and then click the `Add level` button. A window will appear where you can enter the reward size by specifying the amount of remuneration. If the amount is defined as a percentage of the deposit, include the % symbol. For decimal numbers, use a dot as the separator. Click the `Ok` button to add the new level to the list of referral levels. The level number is automatically assigned based on the number of existing levels and cannot be changed. You can create multiple levels and modify the reward for any level at any time. To change the reward, click on the `Change` icon next to the desired level. To delete a level, simply click on `Delete`.
+
+To view reward statistics, switch to the `Statistics` tab. You can use the search bar to find specific usernames and see which rewards have been credited to them. The list of statistics can be sorted by clicking on column names such as *User*, *Referral*, *Level*, *Reward*, and *Accrual time*.
 
 ### <a name="mailing"></a> Mailing Lists
 
