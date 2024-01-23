@@ -467,7 +467,7 @@ The list of users can be sorted by clicking on the column names. Sorting options
 
 On the right side of each user, there are icons representing various actions.
 
-Clicking *Send funds* opens the Amount entry window. Here, you can enter the amount to be transferred from the agent's account to the selected user's balance. The total available for sending will be equal to the amount in the agency account.
+Clicking *Send funds* opens the Amount entry window. Here, you can enter the amount to be transferred from the agent's account to the selected user's balance. The total available for sending will be equal to the amount in the agent's account.
 
 Clicking on *Detailing* allows you to view a detailed history of agent rewards from the user.
 
