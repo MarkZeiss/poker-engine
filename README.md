@@ -438,7 +438,40 @@ To check the current sending status, click on the `Mailing history` tab.
 
 ### <a name="agent"></a> Agency Program
 
+The Poker-engine offers a built-in functionality for assigning and managing agents, which can be highly beneficial in promoting your online poker room. By assigning agents to players, you can provide them with a profit in their internal agent account based on the players' gameplay, including wins and losses. Agents have the ability to view statistics on their profits, analyze them, and transfer funds from their agent account to the balance of their assigned players. The administrator has the authority to view all agents and their statistics, as well as transfer funds from the agent account to the players assigned to the agents.
 
+To effectively manage and configure the agent program, access the admin panel and navigate to `Users` > `Agent Program`.
+
+In the `Settings` tab, you can configure the general settings of the agent program.
+
+**Profit of agents**: Enable or disable this feature. If enabled, user agents will have special profit terms applied.
+
+**Profit percentage**: Specify the percentage of profit. Agents assigned to players will earn a profit based on the table rake. No profit will be accrued if the rake is 0.
+
+**Accrual mode**: Choose when the profit should be credited to agents. Options include *When winning and when losing*, *Only in case of winning*, and *Only on loss*.
+
+Save your changes by clicking the `Save` button.
+
+\
+To manage agents, navigate to the `List of agents` tab.
+
+The list of agents can be sorted by clicking on the column names. Sorting options include *Username*, *Profit percentage*, *Agent balance*, *Assign* (the user who assigned the agent), *Assigned time*, and *Users* (the number of users assigned to the agent).
+
+On the right side of each agent, there are icons representing various actions.
+
+Clicking on *Change settings* allows you to modify the settings for the agent account. In the appearing window, you can edit the *Account balance* by adjusting the balance of the user's agent account, and choose the *Profit mode* between *Follow the general rule* or *Specify manually*. If you select *Specify manually*, an additional option called *Profit percentage* will appear, allowing you to enter a specific profit percentage for this agent. Agents assigned to players will earn a profit if these players win, depending on the rake amount. No profit will be accrued if the rake is 0. Click the `OK` button to save the changes.
+
+Clicking on *List of users* will display the statistics of the assigned users.
+
+The list of users can be sorted by clicking on the column names. Sorting options include *Username* and *Profit*.
+
+On the right side of each user, there are icons representing various actions.
+
+Clicking *Send funds* opens the Amount entry window. Here, you can enter the amount to be transferred from the agent's account to the selected user's balance. The total available for sending will be equal to the amount in the agency account.
+
+Clicking on *Detailing* allows you to view a detailed history of agent rewards from the user.
+
+The list of rewarded users can be sorted by clicking on the column names, including *Table ID*, *Rake*, *Amount*, and *Time*.
 
 ### <a name="cashier"></a> Cashier Settings
 
