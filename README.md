@@ -471,7 +471,7 @@ Clicking *Send funds* opens the Amount entry window. Here, you can enter the amo
 
 Clicking on *Detailing* allows you to view a detailed history of agent rewards from the user.
 
-The list of rewarded users can be sorted by clicking on the column names, including *Table ID*, *Rake*, *Amount*, and *Time*.
+The list of rewards can be sorted by clicking on the column names, including *Table ID*, *Rake*, *Amount*, and *Time*.
 
 ### <a name="cashier"></a> Cashier Settings
 
