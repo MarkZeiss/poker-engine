@@ -475,7 +475,26 @@ The list of rewards can be sorted by clicking on the column names, including *Ta
 
 ### <a name="cashier"></a> Cashier Settings
 
+To access the cashier settings, navigate to the administrator panel and click on `Cashier` > `Settings`.
 
+Currency Settings:
+
+- Click on the `Currency` tab to configure currency settings.
+- **Currency code**: This code represents the main currency and is displayed when selecting a currency. The default currency code is USD.
+- **Currency symbol**: The currency symbol is displayed next to the numeric value of the currency (e.g., user balance, buy-in, blinds). The default currency symbol is $.
+
+Verification Settings:
+
+- Click on the Verification tab to configure verification settings.
+- **Deposit limit 1**: Set the deposit limit for users who have not yet passed verification. Use 0 for no limit. Decimal numbers should be separated by a dot.
+- **Deposit limit 2**: Set the deposit limit for users who have passed verification. Use 0 for no limit. Decimal numbers should be separated by a dot.
+- **Minimum amount for withdrawal**: Set the minimum amount required for a user to request a withdrawal. Use 0 to disable this option.
+- **Commission for withdrawal**: Specify the percentage of commission charged for withdrawing funds from the user's balance. Use 0 for no commission.
+- **Restrictions on withdrawal 1**: Set a withdrawal limit for users who have not passed verification. Use 0 for no limit.
+- **Restrictions on withdrawal 2**: Set a withdrawal limit for users who have passed verification. Use 0 for no limit.
+- **Transfers**: Enable the ability to send funds to other users, even if the user has not passed verification.
+
+Remember to click on the `Save` button to save your changes.
 
 ### <a name="payment"></a> Payment Systems
 
