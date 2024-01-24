@@ -485,7 +485,7 @@ Currency Settings:
 
 Verification Settings:
 
-- Click on the Verification tab to configure verification settings.
+- Click on the `Verification` tab to configure verification settings.
 - **Deposit limit 1**: Set the deposit limit for users who have not yet passed verification. Use 0 for no limit. Decimal numbers should be separated by a dot.
 - **Deposit limit 2**: Set the deposit limit for users who have passed verification. Use 0 for no limit. Decimal numbers should be separated by a dot.
 - **Minimum amount for withdrawal**: Set the minimum amount required for a user to request a withdrawal. Use 0 to disable this option.
