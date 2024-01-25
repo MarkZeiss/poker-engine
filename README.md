@@ -498,7 +498,15 @@ Remember to click on the `Save` button to save your changes.
 
 ### <a name="payment"></a> Payment Systems
 
+To set up payment systems, navigate to the `Cashier` section and click on `Payment Systems`.
 
+To configure payment systems for withdrawals, go to the `Withdrawal` tab. Here, you can enable or disable specific payment systems and configure API keys for certain systems. All withdrawal requests will be displayed in the [messages](#messages) section.
+
+To set up payment systems for depositing funds, click on the `Deposit` tab. Here, you can enable or disable different payment systems, configure secret keys for signing, and add wallet addresses to accept funds. All payments will be automatically credited to the user's internal account.
+
+We currently support a variety of payment systems and gateways, including Paypal, Payeer, Coinpayments, and others. We are continuously adding new payment options based on our customers' requests.
+
+Don't forget to click on the `Save` button to ensure that your changes take effect.
 
 ### <a name="cryptocurrencies"></a> Cryptocurrencies
 
