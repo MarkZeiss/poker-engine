@@ -510,7 +510,78 @@ Don't forget to click on the `Save` button to ensure that your changes take effe
 
 ### <a name="cryptocurrencies"></a> Cryptocurrencies
 
+Introducing Cryptocurrencies with Poker-Engine: Simplify and Streamline Payments on Your Website
 
+With Poker-Engine, you can seamlessly accept cryptocurrencies on your website, eliminating the need for third-party integration. All you need is your wallet address to start accepting funds. Our payment processing module will automatically reconcile the balance on your wallet and credit the payments. To optimize server resources, our module doesn't require node loading. Instead, you can easily check your wallet balance by accessing the *API url*.
+
+Our cryptocurrency interface not only facilitates payment processing but also offers additional features to enhance your experience. You can now configure Blockchain and Cryptocurrency settings, as well as customize rate updates effortlessly. Simply navigate to `Cashier` > `Cryptocurrencies` to access these functionalities.
+
+\
+To configure rate updates, go to the `Settings` tab.
+
+**Price URL**: This is the URL that provides the data needed to update the cryptocurrency price. By default, it uses the Coingecko API: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=%ids&order=market_cap_desc&sparkline=false. If you plan to change the address to another service, ensure that the data accepts identifiers via GET parameters. For example, you can use ids=%ids, where %ids will be replaced with ids=ethereum,tether (a comma-separated list of all active cryptocurrencies). Currency identifiers can be customized when adding a cryptocurrency.
+
+**Price hold**: Specify the duration for which the price value should be retained after the user specifies the desired top-up amount. This value is indicated in seconds. For example, setting it to 300 means the price will be held for 5 minutes.
+
+\
+To manage blockchains, click on the `Blockchains` tab.
+
+To add a new blockchain, click on the `Add blockchain` button.
+
+In the window that appears, enter the following parameters:
+
+**Name**: This is the name that will be displayed when users choose a blockchain, such as *Ethereum Mainnet*.
+
+**Blockchain ID**: This is the identifier for the blockchain (a number, e.g. *42* for *Kovan Test Network*).
+
+**API URL**: Enter the URL that retrieves a list of transactions by address. Please ensure you use an API key to increase the rate limit.
+
+**API URL (TOKEN)**: Enter the URL that retrieves a list of transactions by the contract address. Again, use an API key for a higher rate limit.
+
+**API2 URL**: Enter the URL that returns the last block from the blockchain. Remember to use an API key for a higher rate limit.
+
+Click the `OK` button.
+
+The new blockchain will now appear in the list of blockchains. To edit its parameters, click on the *Blockchain parameters* icon. To delete it, click on *Delete blockchain*.
+
+\
+To add a new cryptocurrency to your platform, click on the `Add cryptocurrency` tab. 
+
+**Type**: By default, it is set as an *Ethereum-based* currency.
+
+**Method name**: This is the name of the deposit method, which will also be used in the cashier to allow users to select a payment method. For example, you can set it as "Ethereum" or "USDT (erc20)".
+
+**Deposit address**: This is the address where users will send their funds. It is recommended to create a separate address for each cryptocurrency.
+
+**Token**: If enabled, users will need to send funds using the contract address.\
+**Contract address**: If you are using a token as a method of receiving funds, you need to provide the contract address.\
+**Token decimals**: Specify the number of decimal places for the token.\
+**Burning coins**: This mode accounts for a double transfer in each user's transaction, with one transfer being burned.\
+**Burning percentage**: In the burning coins mode, specify the percentage value to be burned. This percentage will also be deducted from the total deposit amount.
+
+**Confirmations**: Set the number of confirmations in the network required for funds to be credited.
+
+**Price**: Choose either *Manually* or *Automatically* for price updates.\
+**Price value**: If you have selected *Manually* for price updates, enter the price in US dollars.\
+**Price ID**: If you have selected *Automatically* for price updates, provide the identifier that will fetch the current value of the cryptocurrency price. For example, "tether".
+
+**Maximum random value**: This value is used to create a unique payment amount. A random value between 0 and the specified maximum value will be added to the final payment amount. The default value is 999. For example, if a user wants to add 1 USDT to their balance, the system will generate a random number (e.g. 125) and create an account with a total amount of 1.000125 USDT (taking into account the *token decimals* for the currency). The additional amount is a small fee for creating a unique payment. A too large value will increase the payment amount, while a too low value may increase the time taken to create the payment.
+
+**Symbol**: Specify the symbol for the cryptocurrency, e.g. ETH.
+
+**Blockchain**: Select the appropriate blockchain from the list.
+
+**Allow withdrawals**: By selecting this option, users will have the authority to conveniently initiate withdrawal requests through this method.\
+**Withdrawal method name**: In this field, you can precisely indicate the name associated with the withdrawal method. This designated name will be prominently showcased in the cashier section as an accessible choice for users.
+
+Once you've entered the necessary details, click the `Add` button to complete the process.
+
+\
+Managing your cryptocurrencies is made easy with our intuitive user interface. By clicking on the `List of cryptocurrencies` tab, you can view and sort your cryptocurrency list by various criteria, such as *Name* and *Cryptocurrency price*. Each cryptocurrency is accompanied by icons representing different actions.
+
+To activate a payment method, simply click on the **Activate method** icon. Conversely, to deactivate a payment method, click on the **Deactivate method** icon. If you need to make any changes to the parameters of a specific cryptocurrency, click on the **Configure cryptocurrency** icon. And if, for any reason, you want to remove a cryptocurrency from your platform, click on the **Remove cryptocurrency** icon.
+
+With Poker-Engine's integrated cryptocurrency support, you can enhance your website's payment capabilities, offering your users a seamless and secure experience.
 
 ### <a name="coupons"></a> Coupons
 
