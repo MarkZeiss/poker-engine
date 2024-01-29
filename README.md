@@ -585,7 +585,33 @@ With Poker-Engine's integrated cryptocurrency support, you can enhance your webs
 
 ### <a name="coupons"></a> Coupons
 
+Our software offers an enhanced coupon support feature that greatly improves its functionality. With this feature, you can create and manage different types of coupons, such as USD or virtual chips. Coupons can also have expiration dates and can be automatically generated when creating custom [mailings](#mailing).
 
+To access the coupon management section, go to `Cashier` > `Coupons`.
+
+In the `Settings` tab, you have the option to enable or disable coupon support according to your preference.
+
+\
+To add a new coupon, click on the `Add` tab.
+
+**Game coupon**: When adding a game coupon, enter the gaming coupon code (e.g., L99MQ).
+
+**Currency**: Select the game currency that corresponds to this coupon.
+
+**Nominal**: Set the nominal value for the gaming coupon. If the value includes decimal numbers, use a dot as the separator.
+
+**Expires**: Specify the expiration date and time for the coupon, or leave the field blank if there is no expiration date.
+
+Click the `Add` button to create the coupon.
+
+\
+To view the list of coupons, navigate to the `Coupons` tab.
+
+You can use the search bar to quickly find specific coupons.
+
+The list of coupons can be sorted by clicking on the column names. Sorting options include *Coupon*, *Nominal*, and *Redeemed* (showing who redeemed the coupon and when).
+
+If needed, you can delete a coupon by clicking on the corresponding icon.
 
 ### <a name="transactions"></a> Transactions
 
