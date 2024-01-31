@@ -623,7 +623,7 @@ Moreover, the *Date* column presents the exact date and time when the payment wa
 
 ### <a name="server"></a> Server Settings
 
-To configure the server settings, navigate to the administrator panel and go to `Settings` > `Server`. These settings are initially set during software installation and can be modified in the configuration file located in the `Config` directory. However, it is advisable to make changes through the administrator panel and only edit the file as a last resort. Changing settings via the panel will automatically restart certain processes, such as the gameserver, which is vital.
+To configure the server settings, navigate to the administrator panel and go to `Settings` > `Server`. These settings are initially set during software installation and can be modified in the configuration file located in the `Config` directory. However, it is advisable to make changes through the administrator panel and only edit the file as a last resort. Changing settings via the panel will automatically restart certain [processes](#processes), such as the *gameserver*, which is vital.
 
 The **Site URL** parameter enables you to alter the domain if it has been changed or was previously unspecified. Ensure that you enter the correct value, as any mistake will necessitate manual editing of the configuration file.
 
