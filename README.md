@@ -644,7 +644,7 @@ To customize the external display of site features, avatars, and lobby backgroun
 \
 To customize avatars, go to the `Avatars` tab.
 
-Here, you can choose whether to allow users to upload their own images from their computers as avatars. By default, this option is disabled. You can also select from a list of default avatars available for users to choose from. Click on an avatar image to set it as the default avatar for new user registrations.
+Here, you can choose whether to allow users to upload their own images from their computers as avatars. By default, this option is disabled. You can also choose which avatars are available for users to select from the default avatars set. Click on an avatar image to set it as the default avatar for new user registrations.
 
 To upload a new avatar from your computer, click the *file selection box*. Hold down the "SHIFT" key to select multiple images, or press "CTRL" to select images individually. Image names must only contain Latin letters and numbers. Click the `Upload files` button.
 
@@ -656,6 +656,7 @@ To customize the lobby background tune, go to the `Melodies` tab. This tune play
 Enable or disable the background melody as desired.
 
 Select a tune from the provided list. There is a player on the right side for your convenience in previewing the tunes.
+
 To upload a new tune from your computer, click on the *file selection area*. Hold down the "SHIFT" key to select multiple files, or press "CTRL" to select files individually. Please ensure that the melody name consists only of Latin letters and numbers.
 
 After making any changes, save them by pressing the `Save` button.
