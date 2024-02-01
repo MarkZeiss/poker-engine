@@ -639,7 +639,41 @@ Once the necessary changes have been made, click `Save` to confirm them. Keep in
 
 ### <a name="general"></a> General Settings
 
+To customize the external display of site features, avatars, and lobby background tune, navigate to the `Settings` > `General` section.
 
+\
+To customize avatars, go to the `Avatars` tab.
+
+Here, you can choose whether to allow users to upload their own images from their computers as avatars. By default, this option is disabled. You can also select from a list of default avatars available for users to choose from. Click on an avatar image to set it as the default avatar for new user registrations.
+
+To upload a new avatar from your computer, click the *file selection box*. Hold down the "SHIFT" key to select multiple images, or press "CTRL" to select images individually. Image names must only contain Latin letters and numbers. Click the `Upload files` button.
+
+Remember to click the `Save` button after making any changes.
+
+\
+To customize the lobby background tune, go to the `Melodies` tab. This tune plays on loop whenever a user accesses the lobby page.
+
+Enable or disable the background melody as desired.
+
+Select a tune from the provided list. There is a player on the right side for your convenience in previewing the tunes.
+To upload a new tune from your computer, click on the *file selection area*. Hold down the "SHIFT" key to select multiple files, or press "CTRL" to select files individually. Please ensure that the melody name consists only of Latin letters and numbers.
+
+After making any changes, save them by pressing the `Save` button.
+
+\
+To edit the display of other site features, click on the `Site` tab.
+
+**Site description**: Enter a description of the site that will be visible to search engines.
+
+**Keywords**: Enter phrases and words that users typically search for on search engines. These keywords are important for site promotion. Separate them with commas.
+
+**Cashier**: Disable this feature if you want to make the online cashier unavailable to users.
+
+**Play for money**: Disable this feature if you don't want cash tables for real money to be visible in the lobby.
+
+**Tournaments**: Disable this feature if you don't want to create tournaments or have them visible in the lobby. Tournament tickets will also be hidden.
+
+Click the `Save` button after making any changes.
 
 ### <a name="game"></a> Game Settings
 
