@@ -710,7 +710,7 @@ The entire gameplay relies on specific parameters. To modify them, navigate to `
 
 **Tournament Currency Chips Symbol**: The symbol displayed before the numerical value of bets on the table when playing in tournaments. Leave empty for no symbol.
 
-Click the Save button to save your changes.
+Click the `Save` button to save your changes.
 
 ### <a name="templates"></a> Mailing List Settings
 
