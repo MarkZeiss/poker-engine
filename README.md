@@ -678,7 +678,39 @@ Click the `Save` button after making any changes.
 
 ### <a name="game"></a> Game Settings
 
+The entire gameplay relies on specific parameters. To modify them, navigate to `Settings` > `Game`.
 
+**IP Check**: Enabling this option prohibits players using the same IP address from playing at the same table.
+
+**Move Time**: This is the duration within which a player must make their move. Otherwise, an automatic fold/check will occur. Time is specified in seconds.
+
+**Player Timeout**: If a player fails to take any action within this time period, they will go into sitout mode. Time is specified in seconds.
+
+**Showdown Timer**: During the announcement of winners, players will see all the cards of other players for a specified period of time. Time is specified in seconds.
+
+**Timeout for Absent Players**: If a player is disconnected and does not return to the table within the specified time period, they will go into sitout mode. Time is specified in seconds.
+
+**Sitout Timer**: This is the duration players spend on the exit page of the table. Time is specified in seconds. You can edit this page using the built-in [editor](#editor).
+
+**Virtual Money Replenishment**: The number of virtual chips credited to a user's account each time they log in. This can only happen once every 24 hours. Use a decimal number with a dot as the separator. Set to 0 to disable this option.
+
+**Rake**: The commission charged as a percentage on each winning. Set to 0 for no commission. Use a decimal number with a dot as the separator.
+
+**Bot's Move**: The time it takes for a bot to make its move, specified in seconds. You can set two values separated by a comma to create a random duration within a range. For example, "2,7" will result in bot moves between 2 to 7 seconds.
+
+**Play with Friends**: Specify who can create private tables. Options include "All Users", "Verified Users Only", or "Nobody"
+
+**Chat**: Enable or disable the ability for players to send chat messages.
+
+**Preflop Rake**: This function allows you to enable or disable rake after players fold preflop.
+
+**Chips Symbol**: The symbol displayed before the numerical value of bets on the table. Leave empty for no symbol, use $ as the default.
+
+**Tournament Currency Symbol**: The symbol displayed next to the numeric value when playing in tournaments. Leave empty for no symbol.
+
+**Tournament Currency Chips Symbol**: The symbol displayed before the numerical value of bets on the table when playing in tournaments. Leave empty for no symbol.
+
+Click the Save button to save your changes.
 
 ### <a name="templates"></a> Mailing List Settings
 
