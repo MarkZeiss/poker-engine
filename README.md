@@ -714,7 +714,46 @@ Click the `Save` button to save your changes.
 
 ### <a name="templates"></a> Mailing List Settings
 
+Navigate to `Settings` > `Email Templates` to manage your email templates and configure your email delivery preferences.
 
+\
+Access the `Settings` tab to adjust email delivery settings:
+
+**SMTP Server Usage**: Choose 'Yes' to enable or 'No' to disable the use of an SMTP server for email dispatch.
+
+**SMTP Server**: Input the address of your SMTP server.
+
+**SMTP Port**: Enter the port number your SMTP server uses.
+
+**SMTP Encryption**: Select the encryption method (SSL, TLS, or NONE) for your SMTP server.
+
+**SMTP Authentication Required**: Choose 'Yes' if your SMTP server requires authentication, or 'No' if it does not.\
+**SMTP Username**: Provide the username for SMTP server authentication.\
+**SMTP Password**: Provide the password for SMTP server authentication.
+
+**From Email Address**: Enter the email address that will be used as the sender, such as no-reply@example.com.
+
+**From Name**: Enter the sender's name that recipients will see, such as "Poker Room Support."
+
+**Fallback on Failure**: Toggle 'Yes' to enable or 'No' to disable fallback to a built-in mail function if SMTP delivery fails.
+
+Remember to click the `Save` button to apply your new email settings.
+
+\
+To view and manage your email templates, select the `Templates` tab. Each template will have options to *Preview*, *Edit*, or *Delete*. Select *Preview* to review the template in a new tab.
+
+\
+To create a new email template, click the `Create Template` button.
+
+**Template Subject Name**: Enter a name that will be used in the email's subject line.
+
+**Filename**: Leave this field empty to have the filename generated automatically.
+
+**Email Body Content**: Compose the text that will be sent to users. You may include HTML, language tags, and system variables.
+
+Click on `List of System Variables` to view all available variables. Click on a variable to insert it directly into your email content. Press F11 on your keyboard to switch to full-screen mode while editing.
+
+Don't forget to click the `Save` button to preserve your new template.
 
 ### <a name="addons"></a> Addons
 
