@@ -755,13 +755,54 @@ Click on `List of System Variables` to view all available variables. Click on a 
 
 Don't forget to click the `Save` button to preserve your new template.
 
-### <a name="addons"></a> Addons
+### <a name="addons"></a> Addons Management
 
+To enhance the functionality of your Poker Room, navigate to `Settings` > `Addons`. Currently, only official addons provided by us can be uploaded due to security and compatibility reasons. Custom addons can be developed upon request.
 
+**Installed Addons**: Lists all the currently installed addons. By default, a captcha addon is pre-installed for security during user registration.
 
-### <a name="languages"></a> Language Settings
+**Captcha Settings**: To enable or disable the captcha feature, click the toggle switch next to the corresponding addon.
 
+**Addon Requests**: If you require additional functionality, you can request custom addon development. Contact our support team for more details on this service.
 
+**Managing Addons**: Each addon comes with a set of actions. You can view addon details, configure settings, or remove an addon if it is no longer needed.
+
+Remember to review any changes made to addon configurations by clicking the `Save` button.
+
+### <a name="languages"></a> Language Management
+
+To cater to a global audience, manage your language settings by navigating to `Settings` > `Languages`. Here, you can add new languages or manage existing ones to customize the user experience for players from different regions.
+
+\
+**Adding a New Language**
+
+Click on the `New` tab to upload a new language pack.
+
+**Language Name**: Specify the language (e.g., Bulgarian).
+
+**Language Code**: A brief identifier for the language (a brief identifier, e.g., "bg").
+
+**Language File**: Upload the corresponding language file. Ensure the filename corresponds with the language code (e.g., 'bg.php').
+
+**Flag Icon**: Upload the country flag icon in png, gif, jpg, or jpeg format. The filename should match the language code (e.g., 'bg.png').
+
+Click the `Add` button to include the new language in your Poker Room.
+
+\
+**Manage Existing Languages**
+
+Use the `Add Text` button to insert new phrases into the language pack. In the modal, enter the translation text into the provided field. HTML tags are permitted. Choose `Confirm` to save or `Cancel` to discard changes. Upon confirmation, you will receive a phrase ID for use in the platform's content.
+
+The `Languages` tab displays all available languages. On the right side of each language, there are icons representing possible actions.
+
+**Activate/Deactivate**: Toggle a language's availability on the platform.
+
+**Edit**: Modify translations within a language pack.
+- To edit a phrase, simply click on it in the edit view. This action will display the phrase's unique ID, which can be utilized to reference the phrase throughout your content.
+Use `Save Changes` to apply modifications or `Cancel` to revert.
+Utilize the search functionality (Ctrl+F) in your browser to quickly locate specific phrases for editing.
+
+**Remove**: Delete a language pack from the system.
 
 ### <a name="signup"></a> Registration Settings
 
