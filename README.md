@@ -780,7 +780,7 @@ Click on the `New` tab to upload a new language pack.
 
 **Language Name**: Specify the language (e.g., Bulgarian).
 
-**Language Code**: A brief identifier for the language (a brief identifier, e.g., "bg").
+**Language Code**: A brief identifier for the language (e.g., "bg").
 
 **Language File**: Upload the corresponding language file. Ensure the filename corresponds with the language code (e.g., 'bg.php').
 
