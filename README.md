@@ -827,7 +827,7 @@ To add a new menu item, click on the `Add item` button available on each tab. Th
 
 In the modal window, you can set the following parameters:
 
-**Type**: Select the type of the menu item. You can choose between "Link" (a normal hyperlink) or "Code" (a stand-alone code, such as an image).
+**Type**: Select the type of the menu item. You can choose between *Link* (a normal hyperlink) or *Code* (a stand-alone code, such as an image).
 
 **Name**: Enter the name of the menu item or use a language variable.
 
