@@ -806,11 +806,42 @@ Utilize the search functionality (Ctrl+F) in your browser to quickly locate spec
 
 ### <a name="signup"></a> Registration Settings
 
+To access and configure the signup settings, navigate to the `Settings` section and select `Registration`.
 
+**Account Approval Method**:  This setting allows you to specify the method for approving new registered accounts, such as *Email Address Confirmation*, *Administrator Approval*, *Email Address Confirmation and Administrator Approval*, or *Not Required*.
+
+**Email Address Requirement**: Enabling this option will prompt users to provide their email address during the registration process.
+
+**Date of Birth Requirement**: Enabling this option will require users to provide their date of birth during registration.\
+**Minimum Age for Registration**: Specify the minimum age in years, e.g., 18, to restrict registration to users above a certain age.
+
+After making any changes, remember to click the `Save` button to apply the updated settings.
 
 ### <a name="navigation"></a> Navigation Settings
 
+To manage the site navigation, navigate to `Settings` > `Navigation`.
 
+The navigation menu consists of two sections, namely `Top of the site` and `Bottom of the site`. Both sections display a list of menu items that are sorted based on their position number. On the right side of each item, there are icons representing possible actions: *Activate/Deactivate* menu item, *Edit*, *Delete*, *Move Down*, and *Move Up*.
+
+To add a new menu item, click on the `Add item` button available on each tab. This action will open a modal window where you can specify the parameters for the new item.
+
+In the modal window, you can set the following parameters:
+
+**Type**: Select the type of the menu item. You can choose between "Link" (a normal hyperlink) or "Code" (a stand-alone code, such as an image).
+
+**Name**: Enter the name of the menu item or use a language variable.
+
+**Link**: Provide the link to the desired page. For example, you can enter "mylink" to link to a specific page.
+
+**Target**: Define the target behavior when the link is clicked. Options include opening the link in a new tab or performing the transition on the current tab.
+
+**Parent**: Select the parent menu item, if applicable. The parent item will become an expandable list containing the selected sub-item.
+
+**Code**: Use this field to insert any HTML tags or code, such as an image with a hyperlink to a banner.
+
+**Access**: Set the accessibility of the menu item. You can choose between `guest` (accessible to guests), `user` (accessible to registered users), or `for all` (accessible to all users).
+
+Once you have specified the desired parameters, click `Ok` to save the new menu item. If you decide not to add a new item, click `Cancel` to exit the modal window without making any changes.
 
 ### <a name="processes"></a> Process Management
 
