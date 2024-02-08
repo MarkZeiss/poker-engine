@@ -843,9 +843,34 @@ In the modal window, you can set the following parameters:
 
 Once you have specified the desired parameters, click `Ok` to save the new menu item. If you decide not to add a new item, click `Cancel` to exit the modal window without making any changes.
 
-### <a name="processes"></a> Process Management
+### <a name="processes"></a> Server Process Management
 
+To oversee server operations and review system logs, navigate to `Processes` > `Management`.
 
+The game server orchestrates gameplay at the tables, organizes tournaments, and conducts various background tasks such as updating player statistics, synchronizing chat and hand histories, among others. In this section, you'll find information on the following:
+
+**Server Status**: Displays the current status of the game server. You can see whether it's active or offline. While the server is offline, users will not be able to connect to the tables, and their browser client will automatically attempt to refresh the connection until the server becomes active again.
+
+**Process ID (PID)**: Shows the unique identifier for the main server process.
+
+**Server Control**:
+  - **Start Server**: Boot up the game server to allow users to connect and play.
+  - **Stop Server**: Gracefully shut down the server, ensuring all data is saved before going offline. During this time, players will not be able to establish new connections.
+  - **Restart Server**: Perform a complete stop and restart of the server. This may be necessary for updates or troubleshooting.
+
+\
+**Log Management**
+
+**Log Files List**: A directory of all system logs, each corresponding to a specific task or process. Logs can be sorted by `Log Name` or `Log Size` to facilitate easier management and review.
+
+**View Log**: Inspect the detailed records within a log file to diagnose problems or perform audits.
+
+**Clear Log**: Reset the log file to clear old entries and free up space.
+
+**Log Storage**: Access the folder containing all log files by clicking on the underlined directory name.
+
+\
+By maintaining a well-managed server environment, you ensure a reliable and smooth experience for your users. Regular monitoring and management of these processes help prevent downtime and maintain the integrity of your online poker room software.
 
 ### <a name="configuration"></a> Configuration
 
