@@ -872,9 +872,27 @@ The game server orchestrates gameplay at the tables, organizes tournaments, and 
 \
 By maintaining a well-managed server environment, you ensure a reliable and smooth experience for your users. Regular monitoring and management of these processes help prevent downtime and maintain the integrity of your online poker room software.
 
-### <a name="configuration"></a> Configuration
+### <a name="configuration"></a> Server Configuration
 
+Navigate to `Processes` > `Server Configuration` to tailor the game server settings to your needs. The game server is powered by OpenSwoole, which guarantees high performance and scalability for your online poker platform.
 
+**Server IP Address**: Specify the IP address for the WebSocket server. The default value is `0.0.0.0`, which makes the server accessible on all network interfaces.
+
+**Server Port**: Define the port number for the WebSocket server to listen to incoming connections.
+
+**Connection Protocol**: Choose the communication protocol: `ws` for WebSocket or `wss` for WebSocket Secure. Note: Use `wss` if your site operates over HTTPS.\
+**SSL Certificate File**: If using `wss`, upload or provide the path to the SSL certificate file. Ensure that the file and its directory have the appropriate permissions.\
+**SSL Certificate Key File**: Similar to the certificate file, upload or specify the path to the SSL certificate key file, checking that permissions are set correctly.
+
+**Maximum Number of Requests**: Define the threshold for the number of requests a connection can make before being reset. This serves as a protective measure against potential abuse and ensures fair resource distribution among users. For instance, setting this to `1000` means that after 1000 requests, the connection's request count will be reset.
+
+**Connection Limit**: Determine the maximum number of concurrent connections the server can manage. Attempts to connect beyond this threshold will be denied, preserving server stability.
+
+**Process Owner**: Specify the system user under which server processes will run. This helps in managing permissions and maintaining security.
+
+**Process Group**: Designate the system group for server processes to further refine access control and process management.
+
+Following these configurations, your game server will be optimized for security, performance, and reliability, providing an exceptional gaming experience for your players.
 
 ### <a name="editor"></a> Page Editor
 
