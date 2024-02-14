@@ -896,7 +896,49 @@ Following these configurations, your game server will be optimized for security,
 
 ### <a name="editor"></a> Page Editor
 
+The `Page Editor` is an essential tool for administrators to manage and customize the website's pages. This section provides robust features for editing page identifiers, content, and visibility settings, ensuring that the site maintains a professional appearance and user-friendly navigation.
 
+The main features of the `Page Editor` are organized into a user-friendly table with the following columns:
+
+**URL Slug** - Represents the unique address for each page, which is used in the website's URL (e.g., "support" for www.example.com/support).
+
+**Description** - Provides a concise summary of the page's purpose or its content, aiding in quick identification and management.
+
+**Visibility** - Specifies the audience for each page: whether it's available to all visitors (public), only to guests (non-registered users), or exclusively to registered users (private).
+
+Next to each page entry, icons are available for quick actions:
+
+**Toggle Visibility** - Enable or disable the page's visibility with a single click.
+
+**Open in New Tab** - Preview the page as it would appear to the site's visitors.
+
+**Edit** - Modify the page's content, style, or visibility settings.
+
+**Delete** - Remove the page from the website.
+
+\
+Below the list of pages, there is a dedicated section for managing the site's aesthetics through CSS styles. This section presents a list of CSS styles, each accompanied by its style name and icons for edit and delete actions. This functionality allows for the modification of visual elements to enhance the user experience.
+
+\
+**Creating a New Page**
+
+To add a new page to your site, click the `Create New Page` button and provide the details in the following fields:
+
+**Entry Type**: Choose the kind of entry you are adding: *Web Page*, *Content Block*, or *CSS Style Sheet*.
+
+If *Web Page*:\
+**Page Identifier**: Assign a unique identifier that users will use to navigate to the page (e.g., "support").\
+**Visibility Level**: Set the page's accessibility to public, guests only, or registered users only.
+
+If *Content Block*:\
+**Associated Page**: Specify the identifier of the related page for organizational purposes (e.g., "support").\
+**Content Identifier**: Set a unique name that corresponds to the content block.
+
+**Page Title**: Enter the title for your page or content block. You can utilize language variables for multilingual support.
+
+**Content**: Insert the actual content for your page, which can include text, HTML markup, JavaScript code, etc. Use this to craft the desired look and feel for your new page.
+
+For a more immersive editing experience, press F11 on your keyboard to switch to full-screen mode while editing. Ensure all changes are saved by clicking the `Save` button, or navigate back to the list of pages using the `Page List` button.
 
 ### <a name="messages"></a> Messages
 
