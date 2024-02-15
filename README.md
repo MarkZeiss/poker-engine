@@ -947,29 +947,29 @@ The Messages Center is a hub for all communication-related activities within the
 \
 **Navigating the Messages Center**
 
-- **Inbox**: This section contains all incoming messages, verification requests, and withdrawal requests. Each type of message is marked with a distinct icon for easy identification.\
-- **Sent Items**: This area displays all messages that have been sent out by the admin. It is useful for tracking previous correspondences.\
+- **Inbox**: This section contains all incoming messages, verification requests, and withdrawal requests. Each type of message is marked with a distinct icon for easy identification.
+- **Sent Items**: This area displays all messages that have been sent out by the admin. It is useful for tracking previous correspondences.
 - **Compose**: Use this feature to create and send messages to individual users or multiple recipients.
 
 \
 **Managing Messages**
 
-- **Sorting**: Messages can be organized by *Sender*, *Content*, *Category* (such as general messages, verification, or withdrawal requests), and *Date*. This enables easy retrieval of past correspondences.\
-- **User Information**: By clicking on the sender's name, you are directed to the [User Management](#users) section where you can view detailed information about the user.\
-- **Action Icons**: Each message is accompanied by icons that allow you to *View*, *Delete*, or *Select* the message for batch actions.\
+- **Sorting**: Messages can be organized by *Sender*, *Content*, *Category* (such as general messages, verification, or withdrawal requests), and *Date*. This enables easy retrieval of past correspondences.
+- **User Information**: By clicking on the sender's name, you are directed to the [User Management](#users) section where you can view detailed information about the user.
+- **Action Icons**: Each message is accompanied by icons that allow you to *View*, *Delete*, or *Select* the message for batch actions.
 - **Batch Deletion**: Select multiple messages and click on the deletion icon at the top of the list to remove them all at once.
 
 \
 **Message Details**
 
-- **General Messages**: When opening a general message, sender details are displayed, and you have the option to respond directly.\
-- **Verification Requests**: These messages come with attachments that can be reviewed before clicking on the `Verify` button or responding to the user's message.\
+- **General Messages**: When opening a general message, sender details are displayed, and you have the option to respond directly.
+- **Verification Requests**: These messages come with attachments that can be reviewed before clicking on the `Verify` button or responding to the user's message.
 - **Withdrawal Requests**: Details of the request and the chosen withdrawal method are shown. You can action the request by clicking `Approve`, `Deny`, or `Message User`. For Coinpayments methods, funds are transferred automatically upon approval. For other methods, marking the request as 'Paid' is a manual confirmation of transaction completion.
 
 \
 **Sending Messages**
 
-- **Individual Messaging**: To send a message to a specific user, simply enter their username or email address.\
+- **Individual Messaging**: To send a message to a specific user, simply enter their username or email address.
 - **Group Messaging**: For broader communication, specify multiple recipients by separating their identifiers with commas.
 
 By utilizing the Messages Center effectively, administrators can ensure smooth and efficient communication with users, which is an essential aspect of managing an online poker room.
