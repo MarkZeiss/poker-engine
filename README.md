@@ -978,19 +978,19 @@ By utilizing the Messages Center effectively, administrators can ensure smooth a
 
 Managing updates is crucial to ensure that your online poker room software has the latest features, security patches, and performance improvements. The `Updates` section of the admin panel provides a comprehensive set of tools to help administrators maintain the software efficiently.
 
-**Version Check and Update Indicator**
+**Version Check and Update Indicator**\
 When logging into the administrator panel, the version installed on your server is checked against the actual one. If they are different, the `Updates` button will flash orange, indicating that a new update is available. If the installed version is up to date, the button will stay green.
 
-**File Integrity and Update Process**
+**File Integrity and Update Process**\
 Even if the version of the installed software is up to date, you may still need to update accidentally changed or deleted files. To facilitate this, go to the `Updates` section and wait for the files to be checked.
 
-**Caution Regarding Engine File Modifications**
+**Caution Regarding Engine File Modifications**\
 We do not recommend making any changes to the engine files. The update process only ignores the modified style files and those files that have been edited with the [Page Editor](#editor). For all other cases, after an update, you will have to manually check for differences. Free utilities can assist you with this; for example, WinMerge is a useful tool for Windows users.
 
-**Disclaimer**
+**Disclaimer**\
 Please note that we do not guarantee smooth operation when making changes to the engine files. In case of any problems, our support will be limited until the original files are restored.
 
-**Checking for Updates**
+**Checking for Updates**\
 Upon accessing the `Updates` section, the system will automatically check for available updates. This process may take a few minutes, depending on the number of files that require scanning. A summary is presented with the following information:
 - **Files to Update**: Number of existing files that have new versions available.
 - **Files to Delete**: Number of outdated files that should be removed.
@@ -1000,22 +1000,22 @@ Upon accessing the `Updates` section, the system will automatically check for av
 
 You can click on `Details` to see a list of affected files or tables, including their names and paths.
 
-**Backup and Changelog**
+**Backup and Changelog**\
 Before applying any updates, it is recommended to create a backup of your current setup. You can do this by clicking on `Backup` next to the list of affected files. The backup will be stored in the `Backup` section for later retrieval.
 
 Beneath the update summary, you will find the `Changelog`. This section provides detailed descriptions of the changes included in the latest version. Always clear your browser cache after an update to ensure that all changes take effect.
 
-**Applying Updates**
+**Applying Updates**\
 To initiate an update, simply click the `Update` button. If the update process requires a restart of the game server, be prepared for a brief downtime, typically lasting no more than one to two minutes. After the update is complete, verify that the game server is active in the [Process Management](#processes) section. If the server is not running, manually start it and review the log files for any issues.
 
-**Backup Management**
+**Backup Management**\
 In the `Backup` submenu, administrators can manage their backups with the following options:
 - **Create Backup**: To archive the current state of all software files.
 - **Download**: To save a backup archive to your local machine.
 - **Extract Files**: To restore files from a backup, replacing the current software folder contents.
 - **Delete Backup**: To remove a backup file from the server.
 
-**Note**
+**Note**\
 - Always create a backup before applying updates, especially if you have made custom modifications to the software.
 - It is possible to preview new updates on our demo site before applying them to your live environment.
 
