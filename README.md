@@ -1015,7 +1015,7 @@ In the `Backup` submenu, administrators can manage their backups with the follow
 - **Extract Files**: To restore files from a backup, replacing the current software folder contents.
 - **Delete Backup**: To remove a backup file from the server.
 
-**Note**\
+**Note**
 - Always create a backup before applying updates, especially if you have made custom modifications to the software.
 - It is possible to preview new updates on our demo site before applying them to your live environment.
 
