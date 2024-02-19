@@ -1019,9 +1019,27 @@ In the `Backup` submenu, administrators can manage their backups with the follow
 - Always create a backup before applying updates, especially if you have made custom modifications to the software.
 - It is possible to preview new updates on our demo site before applying them to your live environment.
 
-### <a name="panel"></a> Admin Panel Settings
+### <a name="panel"></a> Administrator Panel Configuration
 
+Click on the profile icon in the upper right corner to access the Administrator Panel Configuration menu, where you can personalize the settings to improve your management experience and panel security.
 
+#### Enhanced Security Verification
+By enabling the `Enhanced Security Verification` feature, you will add an additional layer of protection to the admin panel. Each time you log in, you will be prompted to upload a pre-generated verification code from your computer. To generate a new code, switch the toggle to `On` and click `Generate Verification Code`. Follow this by clicking `Download Verification File`, which contains the code necessary for future logins.
+
+#### Automatic Updates
+The `Automatic Updates` feature streamlines the process of keeping your software up-to-date. When this is enabled, the system will automatically check for and download the latest updates upon logging into the panel. This ensures that you are always running the most current version of the software, with all the newest features and security enhancements.
+
+#### Tooltip Display Preferences
+With `Tooltip Display Preferences`, you have control over the display of helpful tooltips throughout the admin panel. Toggling this option off will disable pop-up tooltips that appear when you hover over informational icons (marked with a question mark). This can declutter the interface if you are already familiar with the panel's functionality.
+
+#### Panel Configuration Options
+- **Enhanced Security Verification**: Increase the security of your admin access with an additional verification step.
+- **Automatic Updates**: Keep your software current with automated checks and downloads of new updates.
+- **Tooltip Display Preferences**: Choose whether to display explanatory tooltips for a cleaner admin panel interface.
+
+After adjusting these settings to your preference, be sure to click the `Save Changes` button to apply your changes. 
+
+**Note**: It is highly recommended to preview new software updates on our demo site before applying them to your live environment. This allows you to familiarize yourself with the updates and ensure compatibility with your existing setup.
 
 ## <a name="user-profile"></a> User Profile
 
