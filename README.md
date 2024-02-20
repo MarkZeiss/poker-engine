@@ -352,7 +352,7 @@ You can perform the following actions on a group:
 
 **Delete the group**: Removes the selected group.
 
-### <a name="bonuses"></a> Bonuses
+### <a name="admin-bonuses"></a> Bonuses
 
 To access and manage bonuses and view the history of bonus accruals, go to the `Users` > `Bonuses` section in the admin panel.
 
