@@ -14,7 +14,7 @@ The different categories under which the customizations are organized include:
 - [Styles](#styles): Customize the appearance of the game tables.
 - [User Management](#users): Manage user accounts and permissions.
 - [Groups](#groups): Organize users into groups for easier management.
-- [Bonuses](#bonuses): Set up promotional bonuses for users.
+- [Bonuses](#admin-bonuses): Set up promotional bonuses for users.
 - [Affiliate Program](#affiliate): Implement an affiliate marketing program.
 - [Mailing Lists](#mailing): Manage email communication with users.
 - [Agency Program](#agent): Create and manage agent accounts.
@@ -1089,7 +1089,7 @@ Stay engaged and get rewarded! Our platform appreciates your loyalty and offers 
 
 - **Exclusive Offers**: Look out for exclusive bonus offers that pop up from time to time. These special promotions are designed to provide an extra boost to your gameplay.
 
-**Creating Bonuses**: Bonuses can be created and managed by administrators in the [Bonuses](#bonuses) section of the admin panel. Tailor-made bonuses can be crafted to suit various events, achievements, and player milestones.
+**Creating Bonuses**: Bonuses can be created and managed by administrators in the [Bonuses](#admin-bonuses) section of the admin panel. Tailor-made bonuses can be crafted to suit various events, achievements, and player milestones.
 
 Remember, the more you play, the more you earn! Bonuses are our way of saying 'thank you' for your continued patronage. Ensure your profile is up to date to be eligible for all rewards and check back often to not miss out on any offers.
 
