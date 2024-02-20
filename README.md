@@ -38,16 +38,10 @@ The different categories under which the customizations are organized include:
 - [Updates](#updates): Keep the software up to date with the latest version.
 - [Admin Panel Settings](#panel): Configure the admin panel itself.
 
-2. [User Profile](#user-profile):
+2. [User](#user):
 
-- [Personal Information](#profile): Update and manage user profile details.
-- [Password](#password): Change and reset user passwords.
-- [Bonuses](#user-bonuses): View and redeem available bonuses.
-- [Affiliate Program](#user-affiliate): Access and manage affiliate program details.
-- [Agent Program](#user-agent): View and track agent program information.
-- [Avatar](#avatar): Customize user profile avatars.
-- [Game Settings](#user-game): Adjust user-specific game settings.
-- [Account Settings](#user-settings): Manage general account settings.
+- [User Profile](#user-profile): Update and manage user profile details.
+- [User Settings](#user-settings): Manage general account settings.
 
 3. [Lobby](#lobby): Access the poker lobby interface.
 
@@ -1041,39 +1035,91 @@ After adjusting these settings to your preference, be sure to click the `Save Ch
 
 **Note**: It is highly recommended to preview new software updates on our demo site before applying them to your live environment. This allows you to familiarize yourself with the updates and ensure compatibility with your existing setup.
 
-## <a name="user-profile"></a> User Profile
+## <a name="user"></a> User
 
+### <a name="user-profile"></a> User Profile Management
 
+The User Profile section is your personal command center for managing your information and customizing your poker room experience. Here, you have the autonomy to adjust your settings and preferences, which empowers you with the ability to tailor your gaming environment to your liking.
 
-### <a name="profile"></a> Personal Information
+For a comprehensive view of your performance, navigate to the `Profile` section on the main site. You'll find a detailed dashboard featuring your game statistics, including win rates, number of games played, and various other metrics that can help you refine your poker strategy.
 
+#### Personal Details
 
+In the `Personal Details` tab, members have the ability to review and update their personal information, ensuring all details are up-to-date and accurate for a seamless online gaming experience.
 
-### <a name="password"></a> Password
+To edit your information:
 
+1. Navigate to the `Personal Details` tab within the `Profile` section.
+2. Click on the `Edit` button to modify your details.
+3. You can update your *First Name*, *Last Name*, *Phone Number*, *ZIP Code*, *Address*, *Country*, and *City*.
+4. To ensure the security of your account, changes to sensitive information like email addresses are subject to email verification. Follow the link sent by our system to confirm any changes.
+5. Note: Your login and date of birth are permanent and cannot be changed once set.
 
+Rest assured, your personal information is held in the strictest confidence. It is not displayed to third parties and is solely used for account verification and administrative purposes.
 
-### <a name="user-bonuses"></a> Bonuses
+Remember to click the `Save Changes` button after making any modifications to ensure your profile is updated accordingly.
 
+#### Password Management
 
+For optimal security, we recommend our users to regularly update their passwords. Our platform provides an easy and secure process for password management.
 
-### <a name="user-affiliate"></a> Affiliate Program
+To update your password:
 
+1. Select the `Password` tab in your profile section.
+2. Enter your current password in the provided field.
+3. Input your new password into the `New Password` field and confirm it by entering it again in the `Confirm New Password` field.
+4. Click on the `Save` button to apply the changes.
 
+**Password Requirements:**
+- Must be at least 8 characters in length.
+- Should include a mix of upper and lower case letters.
+- Incorporate at least one number and one special character for added security.
 
-### <a name="user-agent"></a> Agent Program
+**Note:** Our system encrypts all passwords, ensuring that your information remains private and secure. Once your password is set, it is not visible to anyone, including our staff.
 
+In case you have forgotten your password, simply click on the `Forgot Password` link when logging in and follow the instructions to reset it. A secure password reset link will be sent to your registered email address within a few minutes. Please check your spam folder if you do not see it in your inbox. Follow the link to create a new password and regain access to your account.
 
+#### Bonuses
 
-### <a name="avatar"></a> Avatar
+Stay engaged and get rewarded! Our platform appreciates your loyalty and offers a variety of bonuses to enhance your gaming experience. Navigate to the `Bonuses` tab in your account to explore the rewards available to you.
 
+- **Bonus History**: Review a detailed log of bonuses credited to your account. Sort the list by *Bonus Name*, *Bonus Type* (such as Tournament Tickets, USD, Virtual Chips), *Amount*, and *Date of Crediting*. Keep track of your rewards and plan your next move.
 
+- **Total Bonus Tally**: Easily view the sum of all bonuses credited to your account at a glance. This total reflects your accumulated rewards, giving you an insight into the value you've gained from playing with us.
 
-### <a name="user-game"></a> Game Settings
+- **Exclusive Offers**: Look out for exclusive bonus offers that pop up from time to time. These special promotions are designed to provide an extra boost to your gameplay.
 
+**Creating Bonuses**: Bonuses can be created and managed by administrators in the [Bonuses](#bonuses) section of the admin panel. Tailor-made bonuses can be crafted to suit various events, achievements, and player milestones.
 
+Remember, the more you play, the more you earn! Bonuses are our way of saying 'thank you' for your continued patronage. Ensure your profile is up to date to be eligible for all rewards and check back often to not miss out on any offers.
 
-### <a name="user-settings"></a> Account Settings
+#### Affiliate Program
+
+Maximize your earnings through our Affiliate Program by inviting new players to our platform. Access your personalized referral links and track the growth of your affiliate network.
+
+- **Affiliate Dashboard**: Navigate to the **Affiliate Program** tab to monitor your referrals. Analyze the enrollment history, manage your unique affiliate links, and view your earnings broken down by *User*, *Referral Level*, *Reward*, and *Time*.
+
+- **Earnings Overview**: Get a comprehensive view of your total earnings from all referrals. Our intuitive table format allows for easy organization and review of your affiliate income.
+
+- **Customizable Settings**: Tailor the Affiliate Program to your preferences by visiting the [Affiliate Program Settings](#affiliate) in the admin panel. Adjust your strategy and optimize your earning potential with our flexible configuration options.
+
+Join the program today and start benefiting from your network's success!
+
+#### Agent Dashboard
+
+As an authorized agent within our online poker room software, you will have exclusive access to the `Agent Dashboard`. This comprehensive interface is designed to provide you with a detailed overview and management capabilities for all your assigned players.
+
+- **Earnings Summary**: At a glance, view the total profit generated from all players under your purview, as well as your current agent account balance. This summary is crucial for keeping track of your financial performance and planning your strategy.
+
+- **Player Analysis**: By selecting `Details` next to a player's login, you can access in-depth statistics for individual players. This section presents a neatly organized table displaying information such as the *Table ID*, *Rake* contributed, *Winnings*, and *Accrual Time*. This data helps you to understand your players' activities and their contribution to your earnings.
+
+- **Fund Management**: The `Transfer Funds` option allows you to support your players by sending funds directly to their accounts. Clicking this will prompt a secure dialog where you can specify the transfer amount, which must not exceed your available agent balance. This feature facilitates financial assistance and incentives for your players, encouraging loyalty and sustained play.
+
+- **Adjustable Agent Preferences**: Fine-tune your agent operations by visiting the [Agent Settings](#agent) section within the admin panel. This area allows you to set up the commission rates, payment intervals, and other essential aspects that influence your revenue from the associated players.
+
+These tools are designed to empower you as an agent, providing you with the resources needed to manage your players effectively and to maximize your earnings through strategic oversight.
+
+### <a name="user-settings"></a> User Settings
 
 
 
