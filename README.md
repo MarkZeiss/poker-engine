@@ -46,7 +46,6 @@ The different categories under which the customizations are organized include:
 - [Bonuses](#user-bonuses): View and redeem available bonuses.
 - [Affiliate Program](#user-affiliate): Access and manage affiliate program details.
 - [Agent Program](#user-agent): View and track agent program information.
-
 - [User Settings](#user-settings): Manage general account settings.
 - [Avatar](#user-avatar): Customize user profile avatars.
 - [Game Settings](#user-game): Adjust user-specific game settings.
