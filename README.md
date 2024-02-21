@@ -41,7 +41,15 @@ The different categories under which the customizations are organized include:
 2. [User](#user):
 
 - [User Profile](#user-profile): Update and manage user profile details.
+- [User Details](#user-details): Personal Details.
+- [Password](#user-password): Change and reset user passwords.
+- [Bonuses](#user-bonuses): View and redeem available bonuses.
+- [Affiliate Program](#user-affiliate): Access and manage affiliate program details.
+- [Agent Program](#user-agent): View and track agent program information.
+
 - [User Settings](#user-settings): Manage general account settings.
+- [Avatar](#user-avatar): Customize user profile avatars.
+- [Game Settings](#user-game): Adjust user-specific game settings.
 
 3. [Lobby](#lobby): Access the poker lobby interface.
 
@@ -1043,7 +1051,7 @@ The User Profile section is your personal command center for managing your infor
 
 For a comprehensive view of your performance, navigate to the `Profile` section on the main site. You'll find a detailed dashboard featuring your game statistics, including win rates, number of games played, and various other metrics that can help you refine your poker strategy.
 
-#### Personal Details
+#### <a name="user-details"></a> Personal Details
 
 In the `Personal Details` tab, members have the ability to review and update their personal information, ensuring all details are up-to-date and accurate for a seamless online gaming experience.
 
@@ -1059,7 +1067,7 @@ Rest assured, your personal information is held in the strictest confidence. It 
 
 Remember to click the `Save Changes` button after making any modifications to ensure your profile is updated accordingly.
 
-#### Password Management
+#### <a name="user-password"></a> Password Management
 
 For optimal security, we recommend our users to regularly update their passwords. Our platform provides an easy and secure process for password management.
 
@@ -1079,7 +1087,7 @@ To update your password:
 
 In case you have forgotten your password, simply click on the `Forgot Password` link when logging in and follow the instructions to reset it. A secure password reset link will be sent to your registered email address within a few minutes. Please check your spam folder if you do not see it in your inbox. Follow the link to create a new password and regain access to your account.
 
-#### Bonuses
+#### <a name="user-bonuses"></a> Bonuses
 
 Stay engaged and get rewarded! Our platform appreciates your loyalty and offers a variety of bonuses to enhance your gaming experience. Navigate to the `Bonuses` tab in your account to explore the rewards available to you.
 
@@ -1093,7 +1101,7 @@ Stay engaged and get rewarded! Our platform appreciates your loyalty and offers 
 
 Remember, the more you play, the more you earn! Bonuses are our way of saying 'thank you' for your continued patronage. Ensure your profile is up to date to be eligible for all rewards and check back often to not miss out on any offers.
 
-#### Affiliate Program
+#### <a name="user-affiliate"></a> Affiliate Program
 
 Maximize your earnings through our Affiliate Program by inviting new players to our platform. Access your personalized referral links and track the growth of your affiliate network.
 
@@ -1105,7 +1113,7 @@ Maximize your earnings through our Affiliate Program by inviting new players to 
 
 Join the program today and start benefiting from your network's success!
 
-#### Agent Dashboard
+#### <a name="user-agent"></a> Agent Dashboard
 
 As an authorized agent within our online poker room software, you will have exclusive access to the `Agent Dashboard`. This comprehensive interface is designed to provide you with a detailed overview and management capabilities for all your assigned players.
 
@@ -1123,4 +1131,56 @@ These tools are designed to empower you as an agent, providing you with the reso
 
 
 
-##  <a name="lobby"></a> Lobby
+##  <a name="lobby"></a> Poker Lobby Overview
+
+The Poker Lobby serves as the gateway to all the action, providing players with an intuitive and feature-rich environment to enjoy their online poker experience. Each feature is designed to provide players with control and flexibility, ensuring a seamless and enjoyable poker experience from the moment they enter the lobby. Here's a closer look at the key features available within the Poker Lobby:
+
+#### Main Tabs
+
+Upon entering the lobby, players are greeted with two prominent tabs:
+
+- **Tables**: This tab presents a curated list of all available poker tables, allowing players to quickly find a game that suits their preferences and skill level.
+- **Private Games**: Formerly known as "Play with Friends", this tab lets players set up private tables for an exclusive poker session with invited friends.
+
+#### Table Listings
+
+*Real-Time Updates*
+
+The Lobby dynamically updates with real-time information, ensuring that the status of tables and tournaments is always current. Players will never miss out on joining a new game or tournament due to outdated information.
+
+Browse the left section of the lobby to find a neatly organized display of active tables. Here, you'll see essential details like stakes, number of players, and game type at a glance. Use our intuitive filters and sorting options to quickly locate the perfect table that matches your skill level and interests.
+
+Choose between `Cash Games` or `Tournaments` using the tabs provided. A handy search bar lets you pinpoint tables by name, and sorting by various parameters means you're always just a click away from your preferred game. For administrators, disabling tournament participation in [General Settings](#general) will hide the Tournaments tab, streamlining the experience for your users.
+
+To enhance user navigation and provide detailed insights, a dedicated section is situated on the right side of the screen. This area includes options such as `Play for Money` and `Play for Fun` (using Virtual Chips). By selecting either of these options, the table listings will be refreshed to align with your choice of play mode.
+
+If you've recently competed in a tournament, you'll find a convenient link to the last tournament's results. Your balance is displayed prominently – real money players can track deposits and withdrawals, while fun players can monitor their virtual chip tally. Hover over your balance for a tooltip that reveals the bonus chips credited at login.
+
+Beneath your balance, the `Tournament Tickets` section awaits. Click through to a modal window detailing your tournament ticket history and the current total. These tickets are your key to registering for upcoming tournaments or to join freerolls designated for ticket holders.
+
+Selecting a table brings up information about occupied seats alongside a `Sit at the Table` button, inviting you to join the game. For tournaments, `Registration` and `More` buttons provide quick access to essential tournament details. Register with a click, or delve deeper into the tournament's specifics and see who else is in the running.
+
+#### Cashier
+
+Adjacent to the balance and tournament tickets, players will find a prominent `Cashier` button. One click unveils the cashier modal window, where players can perform a variety of financial transactions across different tabs, including *Deposit*, *Withdrawal*, *Transfer*, and *Transaction history*. Additionally, players can access the *Verification* tab for account security and compliance purposes. The time of the last visit to the cashier is also displayed for convenience. Notably, to maintain a high level of security, only one cashier window can be opened at a time.
+
+The system is intuitive, automatically calculating the total amount to be credited or transferred to a player's account when they enter a deposit or withdrawal figure, factoring in all associated fees. The `Transfer` tab enables players to make internal transfers to other player accounts, provided their own account has this functionality. All account transactions are meticulously recorded under the `Transaction history` tab, sortable by *Information*, *Amount*, *Residue* (Balance after), *Status*, and *Date*.
+
+For those who have completed the verification process, the verification tab becomes unavailable, ensuring a streamlined experience for verified users.
+
+#### Inclusive Features: Play with Friends
+
+*Create a New Game*
+
+We've introduced the ability for players to host private tables, fostering a more personalized and exclusive gaming atmosphere. To create a private table, players simply provide a *Game name*, *Password*, specify the *Buy-in*, the *Maximum buy-in*, and select the *Number of seats* (options include 9, 6, 4, 2). Upon clicking the `Create` button, a confirmation message will appear, affirming the successful creation of the table. Players can then extend invitations to friends to join in on the private game.
+
+*Join a Game*
+
+Accessing a private table is straightforward. Players need only enter the *Game name* and *Password* before clicking the `Join` button to be part of the exclusive gameplay experience.
+
+#### Real-Time Server Clock
+
+We've strategically placed a real-time server clock beneath the bottom navigation bar to assist players in managing their play sessions and coordinating tournament participation.
+
+\
+We are committed to providing an unparalleled online poker experience, and these Lobby enhancements are just the beginning. Stay tuned for more updates as we continue to refine and improve our software.
