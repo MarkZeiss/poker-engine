@@ -47,8 +47,6 @@ The different categories under which the customizations are organized include:
 - [Affiliate Program](#user-affiliate): Access and manage affiliate program details.
 - [Agent Program](#user-agent): View and track agent program information.
 - [User Settings](#user-settings): Manage general account settings.
-- [Avatar](#user-avatar): Customize user profile avatars.
-- [Game Settings](#user-game): Adjust user-specific game settings.
 
 3. [Lobby](#lobby): Access the poker lobby interface.
 
@@ -1128,7 +1126,31 @@ These tools are designed to empower you as an agent, providing you with the reso
 
 ### <a name="user-settings"></a> User Settings
 
+Enhance your gaming experience with personalized settings tailored to your preferences. Dive into the `Settings` section on the main site to customize your gaming environment, avatar, and account details.
 
+#### Avatar
+
+Personalize your profile with a custom avatar. Your selected image will represent you at the gaming tables and within the player community.
+Here is an avatar selection box where you can manage your avatars, accessible through [General Settings](#general).
+If avatar upload is enabled in [General Settings](#general), you can upload your own custom avatar to further personalize your profile.
+
+#### Game Settings
+
+Tailor your poker experience by configuring your preferred game settings, including keyboard shortcuts for in-game actions like fold, call, and raise. Click on the `Game settings` tab. Here, you can set up Hot keys for *Call*, *Raise*, *Fold*, *Check*. To customize these, simply click against the desired action to call the input handler. It will prompt you to press any key on the keyboard, displaying the key name against the action. Complete the setup by clicking on the `Change` or `Cancel` button.
+
+#### Account Settings
+
+Click on `Account settings` tab.
+
+- **IP Binding**: Enable this option to restrict login sessions to the current IP address for enhanced security, preventing unauthorized access from different locations. Once enabled, authorization will only be possible from the current IP address.
+
+- **Top Ranking Display**: Opt to show your username in the player ranking list. This feature is enabled by default.
+
+- **Detailed Game Statistics**: Choose to display detailed statistics about your gameplay. This option is available only when the Top Ranking Display is turned on. It is enabled by default.
+
+- **Email Notifications**: Receive email notifications for any changes in your account. This feature is enabled by default.
+
+Remember to click the `Save changes` button after making any adjustments to ensure that your preferences are updated.
 
 ##  <a name="lobby"></a> Poker Lobby Overview
 
