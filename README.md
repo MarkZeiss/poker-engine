@@ -18,7 +18,7 @@ The different categories under which the customizations are organized include:
 - [Affiliate Program](#affiliate): Implement an affiliate marketing program.
 - [Mailing Lists](#mailing): Manage email communication with users.
 - [Agency Program](#agent): Create and manage agent accounts.
-- [Cashier Settings](#cashier): Configure payment and withdrawal options.
+- [Cashier Settings](#admin-cashier): Configure payment and withdrawal options.
 - [Payment Systems](#payment): Integrate different payment gateways.
 - [Cryptocurrencies](#cryptocurrencies): Support digital currencies for transactions.
 - [Coupons](#coupons): Create and manage promotional coupons.
@@ -472,7 +472,7 @@ Clicking on *Detailing* allows you to view a detailed history of agent rewards f
 
 The list of rewards can be sorted by clicking on the column names, including *Table ID*, *Rake*, *Amount*, and *Time*.
 
-### <a name="cashier"></a> Cashier Settings
+### <a name="admin-cashier"></a> Cashier Settings
 
 To access the cashier settings, navigate to the administrator panel and click on `Cashier` > `Settings`.
 
